@@ -13,16 +13,6 @@
   left: 0;
 }
 
-.banner-text {
-  position: absolute;
-  bottom: 20px;
-  left: 50%;
-  transform: translateX(-50%);
-  color: #ff073a;
-  text-shadow: 0 0 10px black;
-  text-align: center;
-}
-
 .banner-text h1 {
   font-family: 'Meshed Display', cursive;
   font-size: 3em;
