@@ -1,1 +1,1 @@
-# veil-of-astryx
+delete README.md
