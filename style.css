@@ -7,11 +7,11 @@
 
 .moving-banner img {
   width: 100%;
-  height: auto;
   position: absolute;
-  top: 0;  /* JS will change this */
+  top: 0;
   left: 0;
-}
+  obeject-lift: cover;
+  transition: none; /*Important: prevents blocking movement */
 
 .banner-text h1 {
   font-family: 'Meshed Display', cursive;
