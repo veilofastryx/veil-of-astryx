@@ -10,8 +10,9 @@
   position: absolute;
   top: 0;
   left: 0;
-  obeject-lift: cover;
+  obeject-fit: cover;
   transition: none; /*Important: prevents blocking movement */
+}
 
 .banner-text h1 {
   font-family: 'Meshed Display', cursive;
