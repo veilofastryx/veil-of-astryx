@@ -3,7 +3,6 @@ window.addEventListener('scroll', () => {
   const bannerImg = document.getElementById('banner-img');
 
   if (bannerImg) {
-    bannerImg.style.top = `-${scroLLY * 0.25}px`;
+    bannerImg.style.top = `-${scrollY * 0.25}px`;
   }
 });
-
