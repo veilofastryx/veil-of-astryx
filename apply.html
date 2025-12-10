@@ -6,72 +6,74 @@
   <title>Clan Application</title>
   <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
 
   <section class="info-box">
     <h2>Clan Application</h2>
 
-    <form id="clanForm">
+    <form id="applicationForm">
 
-      <label>1) Are you willing to change your IGN to include the clan tag?</label>
-      <select id="q1">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <!-- Q1 -->
+      <label>1) Are you willing to change your IGN to include the clan tag?</label><br>
+      <input type="radio" name="q1" value="yes"> Yes  
+      <input type="radio" name="q1" value="no"> No  
+      <br><br>
 
-      <label>2) Are you willing to join the Discord server?</label>
-      <select id="q2">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <!-- Q2 -->
+      <label>2) Are you willing to join the Discord server?</label><br>
+      <input type="radio" name="q2" value="yes"> Yes  
+      <input type="radio" name="q2" value="no"> No  
+      <br><br>
 
-      <label>3) Are you online at least 4 days a week?</label>
-      <select id="q3">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <!-- Q3 -->
+      <label>3) Are you online at least 4 days a week?</label><br>
+      <input type="radio" name="q3" value="yes"> Yes  
+      <input type="radio" name="q3" value="no"> No  
+      <br><br>
 
-      <label>4) If you answered “No” to question 3, are you online at least 3 days a week?</label>
-      <select id="q4">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <!-- Q4 -->
+      <label>4) If you answered “No” to question 3, are you online at least 3 days a week?</label><br>
+      <input type="radio" name="q4" value="yes"> Yes  
+      <input type="radio" name="q4" value="no"> No  
+      <br><br>
 
-      <label>5) Can you contribute clan points?</label>
-      <select id="q5">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <!-- Q5 -->
+      <label>5) Can you contribute clan points?</label><br>
+      <input type="radio" name="q5" value="yes"> Yes  
+      <input type="radio" name="q5" value="no"> No  
+      <br><br>
 
-      <label>6) Can you contribute a large amount of clan points?</label>
-      <select id="q6">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <!-- Q6 -->
+      <label>6) Can you contribute a large amount of clan points?</label><br>
+      <input type="radio" name="q6" value="yes"> Yes  
+      <input type="radio" name="q6" value="no"> No  
+      <br><br>
 
-      <label>7) Can you contribute a small amount of clan points? (6)</label>
-      <select id="q7">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <!-- Q7 -->
+      <label>7) Can you contribute a small amount of clan points?</label><br>
+      <input type="radio" name="q7" value="yes"> Yes  
+      <input type="radio" name="q7" value="no"> No  
+      <input type="radio" name="q7" value="six"> 6)  
+      <br><br>
 
-      <label>8) Do you swear to follow and uphold the clan rules?</label>
-      <select id="q8">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <!-- Q8 -->
+      <label>8) Do you swear to follow and uphold the clan rules?</label><br>
+      <input type="radio" name="q8" value="yes"> Yes  
+      <input type="radio" name="q8" value="no"> No  
+      <br><br>
 
-      <label>9) Are you above level 10?</label>
-      <select id="q9">
-        <option value="yes">Yes</option>
-        <option value="no">No</option>
-      </select>
+      <!-- Q9 -->
+      <label>9) Are you above level 10?</label><br>
+      <input type="radio" name="q9" value="yes"> Yes  
+      <input type="radio" name="q9" value="no"> No  
+      <br><br>
 
       <button type="submit">Submit Application</button>
 
     </form>
   </section>
 
-  <script src="application-check.js"></script>
+  <script src="application.js"></script>
 </body>
 </html>
