@@ -4,51 +4,92 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Veil of Astryx</title>
+
+  <!-- Fonts + Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
   <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
 
-  <!-- Moving Banner -->
-  <header class="moving-banner">
-    <img src="banner.jpg" id="banner-img" alt="">
+  <!-- BANNER -->
+  <header class="banner">
+    <img src="banner.jpg" alt="Clan Banner">
   </header>
 
-  <!-- Navigation -->
-  <nav>
-    <ul>
-      <li><a href="rules.html">Rules</a></li>
-      <li><a href="qna.html">Q&A</a></li>
-      <li><a href="join.html">Clan Application</a></li>
-    </ul>
-  </nav>
+  <!-- INTRO -->
+  <section class="intro-text">
+    <p>A laid-back clan for gamers who don’t have much time — no scrims, no tournaments, just chill, chat, and play together.</p>
+  </section>
 
-  <!-- Main Content -->
-  <main>
-    <section>
-      <h2>About Veil of Astryx</h2>
-      <p>Bio: A laid-back clan for gamers who don’t have much time — no scrims, no tournaments, just chill, chat, and play together.</p>
-      <p>Max members: 40</p>
-    </section>
+  <!-- MEMBER COUNT BOX (you requested it here) -->
+  <section class="info-box">
+    <h2>Current Member Count</h2>
+    <div class="box-content">
+      <p id="member-count">0 / 40</p>
+      <p id="join-status">Applications: CLOSED</p>
+    </div>
+  </section>
 
-    <section id="member-status">
-      <h2>Current Member Count:</h2>
-      <p id="member-count">0/40</p>
-      <p id="join-status">0</p>
-    </section>
+  <!-- QUICK LINKS -->
+  <section class="quick-links">
+    <a href="qna.html">Q&A</a>
+    <a href="rules.html">Rules</a>
+    <a href="apply.html">Application</a>
+  </section>
 
-    <section class="icon-buttons">
-      <a href="https://discord.com" target="_blank"><i class="fab fa-discord"></i> Discord</a>
-      <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i> Twitter</a>
-      <a href="https://reddit.com" target="_blank"><i class="fab fa-reddit"></i> Reddit</a>
-      <a href="join.html"><i class="fas fa-user-plus"></i> Join Clan</a>
-    </section>
-  </main>
+  <!-- ABOUT BOX -->
+  <section class="info-box">
+    <h2>About</h2>
+    <div class="box-content">
+      <p>
+        Veil of Astryx is a chill clan with relaxed rules, friendly players, and a community for casual CODM gamers.
+      </p>
+      <img src="logo.png" alt="Clan Logo">
+    </div>
+  </section>
+
+  <!-- REQUIREMENTS BOX -->
+  <section class="info-box">
+    <h2>Requirements</h2>
+    <div class="box-content">
+      <p>
+        • Be respectful<br>
+        • No toxicity<br>
+        • No rank/skill requirements<br>
+        • Active at least once a week
+      </p>
+      <img src="requirements.jpg" alt="Requirements">
+    </div>
+  </section>
+
+  <!-- BENEFITS BOX -->
+  <section class="info-box">
+    <h2>Benefits</h2>
+    <div class="box-content">
+      <p>
+        • Friendly members<br>
+        • Active chat<br>
+        • Game sessions<br>
+        • Zero pressure environment
+      </p>
+      <img src="benefits.jpg" alt="Benefits">
+    </div>
+  </section>
+
+  <!-- SOCIALS -->
+  <section class="socials">
+    <a href="https://twitter.com" target="_blank"><i class="fab fa-twitter"></i></a>
+    <a href="https://reddit.com" target="_blank"><i class="fab fa-reddit"></i></a>
+  </section>
 
   <footer>
-    <p>© 2025 Veil of Astryx. All rights reserved.</p>
+    <p>© 2025 Veil of Astryx</p>
   </footer>
 
+  <!-- Optional: Dynamic member system -->
   <script src="script.js"></script>
+
 </body>
 </html>
