@@ -24,14 +24,16 @@ body {
   transition: none;
 }
 
-/* INTRO TEXT (NO BOX) */
+/* INTRO TEXT — NO BOX */
 .intro-text {
-  background: transparent !important;
+  background: none !important;
   border: none !important;
-  padding: 20px;
-  text-align: center;
-  max-width: 900px;
+  padding: 0 !important;
   margin: 25px auto;
+  max-width: 900px;
+  text-align: center;
+  font-size: 1.2em;
+  line-height: 1.6em;
 }
 
 /* QUICK LINKS */
