@@ -7,22 +7,31 @@ body {
   padding: 0;
 }
 
-/* BANNER */
-.banner img {
-  width: 100%;
-  height: 250px;
-  object-fit: cover;
-  display: block;
-  border-bottom: 2px solid #ff073a;
+/* MOVING BANNER */
+.banner {
+  position: relative;
+  height: 300px;      /* FULL SIZE */
+  overflow: hidden;
 }
 
-/* INTRO TEXT */
+.banner img {
+  width: 100%;
+  height: 400px;      /* TALLER to allow movement */
+  position: absolute;
+  top: 0;
+  left: 0;
+  object-fit: cover;
+  transition: none;
+}
+
+/* INTRO TEXT (NO BOX) */
 .intro-text {
- .no-box {
-  background-color: transparent !important;
+  background: transparent !important;
   border: none !important;
-  padding: 10px 20px;
-  margin-top: 20px;
+  padding: 20px;
+  text-align: center;
+  max-width: 900px;
+  margin: 25px auto;
 }
 
 /* QUICK LINKS */
