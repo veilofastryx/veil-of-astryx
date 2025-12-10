@@ -2,7 +2,8 @@ window.addEventListener('scroll', () => {
   const scrollY = window.scrollY;
   const bannerImg = document.getElementById('banner-img');
 
-  // Move image upward slowly (0.3 speed)
-  bannerImg.style.top = `-${scrollY * 0.3}px`;
+  if (bannerImg) {
+    bannerImg.style.top = `-${scroLLY * 0.25}px`;
+  }
 });
 
